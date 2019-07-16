@@ -1,0 +1,35 @@
+21 BlackJack:
+
+The player has a balance, of money of course.
+And the player places a bet.
+
+# Start conditions
+- Theres a deck.
+- The computer dealer starts with 1 card face up and 1 card face down.
+- Player starts with 2 cards face up.
+
+The player goes first in the gameplay:
+
+# Player Goal:
+Get closer to a total value of 21 than the dealer does
+
+# Posible Actions:
+1. Hit (Receive another card)
+2. Stay (Stop Receiving Cards)
+
+
+After player turn:
+2. if player is under 21, dealer then hits until theu either beat the player or the dealer busts.
+
+# The player cannot sum over 21:
+The human player has failed, and the Delear collects the money.
+
+#Win conditions for the Dealer:
+If the Dealer sum over the player sum, then the dealer wins
+
+#If the human win, collects the double of the money.
+
+
+#Special Rules:
+- Face Cards (Jack, Queen, King) count as a value of 10.
+- Aces can count as either 1 or 11 wichever value is preferable to the player.

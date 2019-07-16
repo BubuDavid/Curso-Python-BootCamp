@@ -1,9 +1,6 @@
-result = 0
+i = 3
 
-for i in range(100, 1000):
-	for j in range(100, 1000):
-			auxiliar = str(i * j)
-			if auxiliar == auxiliar[::-1] and int(auxiliar) > result:
-				result = int(auxiliar)
+while primes != 6:
 
-print(result)
+	for i in range(2, i):
+		
